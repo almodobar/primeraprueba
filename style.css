@@ -10,31 +10,31 @@
 }
 .icon1{
     transition: all 0.3s ease-in-out;
-    border: 1px solid black;
 }
 .icon2{
     transition: all 0.4s ease-in-out;
-    border: 1px solid black;
 }
 .icon3{
     transition: all 0.5s ease-in-out;
-    border: 1px solid black;
 }
 .icon4{
     transition: all 0.6s ease-in-out;
-    border: 1px solid black;
 }
 .icon5{
     transition: all 0.7s ease-in-out;
-    border: 1px solid black;
 }
 .icon6{
     transition: all 0.8s ease-in-out;
-    border: 1px solid black;
 }
 .icon{
     display: grid;
     grid-template-rows: repeat(6, 1fr);
+}
+.footer{
+    background: rgb(181,152,201);
+    background: linear-gradient(90deg, rgba(181,152,201,1) 0%, rgba(240,173,78,1) 41%, rgba(246,80,80,1) 94%);
+    margin-left: 90px;
+    padding: 30px;
 }
 
 .icon:hover .icon1,
